@@ -3,7 +3,7 @@ public class Main
     public static void main(String[] args) 
     {   
 
-//         变量类型
+//         Variable types
 //         String
 //         String a = "hello";
 //         String b = "Motherfucker";
@@ -15,7 +15,7 @@ public class Main
 //         int b = 13;
 //         int c = a + b;
 //         System.out.println(a+" "+b+" "+c);
-//         int的表示范围：-2147483648～2147483647(-21亿到+21亿)
+//         Int range: -2147483648 to 2147483647(-2.1 billion to + 2.1 billion)
 //
 //         double
 //         double a = 2.5;
@@ -28,7 +28,7 @@ public class Main
 //         System.out.println(a + " " + b);
 //
 //
-//         算数操作符
+//         The arithmetic operator
 //         "/"in int&double
 //         int a = 10;
 //         int b = 3;
@@ -42,58 +42,58 @@ public class Main
 //         %
 //         System.out.println((10%3));
 //
-//         赋值操作符
-//         "a += 3"相当于"a = a+3" // "+="不可拆分
+//         The assignment operator
+//         "a += 3" is equivalent to "a = a+3" // "+=" Inseparable
 //
-//         关系操作符
+//         Relational operator
 //         int a = 10;
 //         double b = 9.9999999;
 //         boolean result = a > b; // "a > b"得出的结果是boolean类型变量
 //         System.out.println(result);
 //
-//         逻辑操作符 && || !
+//         Logical operators && | |!
 //         boolean a = true;
 //         boolean b = false;
 //         boolean c = a && b;
 //         boolean d = a || b;
 //         System.out.println(c+" "+d+" "+!a);
 //
-//         关系操作符的优先级高于逻辑操作符
+//         Relational operators take precedence over logical operators
 //
-//        类型转换
+//         Type conversion
 //         double a =10.55;
 //         int b = (int) a;
 //         System.out.println(b);
 //         boolean like = true;
 //         if (like)
 //         {
-//             System.out.println("我是傻逼");
+//             System.out.println("I am a silly force");
 //         };
 //
 //
-//         数组
+//         An array 
 //         int [] a = new int[5];
 //         a[0]=13;
 //         System.out.println(a[0]+" "+a.length);
 //
-//        遍历数组
+//         Through the array
 //         int [] a ={ 12, 34, 23, 13, 24};
 //         for(int i=0;i<a.length;i++)
 //         {
 //             System.out.println(a[i]);
-//         }//正序遍历
+//         }//Positive sequence traversal
 //
 //         for(int i=a.length-1;i>=0;i--)
 //         {
 //             System.out.println(a[i]);
-//         }//倒序遍历
+//         }//Reverse traversal
 //
-//        交换某两项的值
+//         Swap the values of two terms
 //         int temp = a[3];
 //         a[3]=a[2];
 //         a[3]=temp;
 //
-//         数组扩容
+//         Array capacity
 //         int [] b = new int[a.length+1];
 //         for(int i=0;i<a.length;i++)
 //         {
@@ -106,23 +106,23 @@ public class Main
 //         }
 //
 //
-//        创建对象 对象的名字一般首字母小写
+//        Object names usually start with a lowercase letter
         Object dog = new Object();
         dog.id=250;
-        dog.name="陈邱奕";
+        dog.name="CQY";
         dog.sex=true;
-        dog.phone="18068982298";
+        dog.phone="1806898****";
 
 //        Object ji = new Object();
 //        ji.id=250;
-//        ji.name="季扒皮";
+//        ji.name="JBP";
 //        ji.sex=true;
-//        ji.phone="18021655022";
+//        ji.phone="1802165****";
 
-//        空对象
+//        An empty object
 //        Object girlfriend = null;
 
-//        引用方法
+//        Reference method
         Functions aba_aba = new Functions();
         aba_aba.playMusic("起风了");
 
