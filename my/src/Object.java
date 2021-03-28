@@ -1,4 +1,4 @@
-//创建一个类 类的名字通常大写
+//Creating a Class. The name of a class is usually uppercase
 public class Object
 {
     public int id;
