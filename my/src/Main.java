@@ -48,7 +48,7 @@ public class Main
 //         Relational operator
 //         int a = 10;
 //         double b = 9.9999999;
-//         boolean result = a > b; // "a > b"得出的结果是boolean类型变量
+//         boolean result = a > b; // "a > b"yields a variable of type Boolean
 //         System.out.println(result);
 //
 //         Logical operators && | |!
@@ -124,7 +124,7 @@ public class Main
 
 //        Reference method
         Functions aba_aba = new Functions();
-        aba_aba.playMusic("起风了");
+        aba_aba.playMusic("The wind");
 
         My_Handler handler=new My_Handler();
         My_Data sample=new My_Data();
